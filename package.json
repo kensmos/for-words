@@ -1,0 +1,23 @@
+{
+  "name": "dottest",
+  "version": "1.0.0",
+  "description": "Test website",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kensmos/for-words.git"
+  },
+  "keywords": [
+    "test",
+    "website"
+  ],
+  "author": "kazmoe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kensmos/for-words/issues"
+  },
+  "homepage": "https://github.com/kensmos/for-words#readme"
+}
