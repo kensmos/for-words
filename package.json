@@ -2,7 +2,7 @@
   "name": "dottest",
   "version": "1.0.0",
   "description": "Test website",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
