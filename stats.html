@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Wins and Losses</title>
+    
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/wl.css">
+    <link rel="stylesheet" href="assets/arialBlack/stylesheet.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://use.typekit.net/dwk5vbq.css">
+
+
+   
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<body onload="load()">
+    <div class="container">
+
+        <nav>
+
+            <label class="label"> <img src="img/whitelogo.png" alt="logo"> </label>
+    
+          
+            <ul id="ul">
+                <div class="navTop" >
+                    <p onclick="exitClicked()" id="exitBtn">&#10005;</p>
+                </div>
+                <li> <a href="https://dotdao.app/">HOME</a> </li>
+                <li> <a href="stats">STATS</a> </li>
+                <li> <a href="team">TEAM</a> </li>
+                <li> <a href="apply">APPLY</a> </li>
+                <li> <a href="contact">CONTACT</a> </li>
+                <li> <a  target=”_blank” href="https://twitter.com/dotdotdotdao"><i class="fa-brands fa-twitter"></i></a> </li>
+                <li> <a  target=”_blank” href="https://discord.gg/EvXFeBemVN"><i class="fa-brands fa-discord"></i></a> </li>
+            </ul>
+      
+            <div class="mobTag" onclick="navClicked()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        
+
+        
+
+
+
+
+        <div class="header">
+
+
+            
+            <div class="both win-w" id="win-w">
+
+                <h1>WINS</h1>
+            </div>
+
+            <div class="barrier"></div>
+
+            <div class="both loss-l"  id="loss-l">
+
+                <h1>LOSSES</h1>
+            
+            </div>
+        
+    </div>
+
+
+
+    <div class="mobButtons">
+
+        <div onclick="winSect()" id="winSect" class="wins">
+        <p>WINS</p></div>
+        <div onclick="lossSect()" id="lossSect" class="losses">
+        <p>LOSSES</p></div>
+
+    </div>
+
+
+        <div class="timeFrame">
+
+
+
+                <div class="both" id="winDrop">
+
+
+                <select onchange="winSelectChanged()" id="winDropDown">
+                    <option value="ThirtyDays">Last 30 Days</option>
+                    <option value="allTime">All Time</option>
+                </select>
+
+
+
+                </div>
+                <div class="barrier"></div>
+                <div class="both" id="lossDrop">
+
+                    <select onchange="lossSelectChanged()"  id="lossDropDown">
+                        <option value="30Days">Last 30 Days</option>
+                        <option value="allTime">All Time</option>
+
+                    </select>
+                </div>
+            
+        </div>
+
+        <div class="winsAndLossesHolder">
+      
+
+            <div id="winHolder" class="winHolder both">
+            </div>
+
+            <div class="barrier ">
+            </div>
+
+            <div id="lossHolder" class="lossHolder both">
+            </div>
+
+
+                
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+</section>
+
+
+
+
+
+</div>
+<script src="https://kit.fontawesome.com/33928c52ed.js" crossorigin="anonymous"></script>
+
+<script src="js/wnllist.js"></script>
+<script src="js/winslosses.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+
+
+</html>
+
+
+
+
+  

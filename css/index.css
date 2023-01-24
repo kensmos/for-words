@@ -1,0 +1,1107 @@
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    /* For mobiles: */
+
+    @keyframes popIn {
+        0% {
+            scale: 0;
+        }
+        100% {
+            scale: 1;
+        }
+      }
+
+   
+    
+
+
+    body {
+        background-color: #fbf5ec;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    
+        text-decoration: none;
+        list-style: none;
+    }
+
+  
+    
+    
+    
+    .container {
+        width: 90%;
+        margin: 0 auto 0 auto;
+    }
+    
+    
+    
+    label img {
+        width: 80px;
+        margin: 15px 0 0 0;
+    }
+    
+    nav {
+        width: 100%;
+        height: 110px;
+        border: 0px solid black;
+
+    } nav li img {
+        width: 20px;
+    }
+    
+    nav ul {
+        
+        background-color: #4880ba;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+
+        padding: 0px 0;
+
+        display: none;
+
+        animation: popIn 0.3s;
+
+        
+    }
+
+    nav ul li {
+        line-height: 60px;
+    }
+
+
+    .navTop {
+        width: 100%;
+        height: 100px;
+
+        border: 0px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-items: center;
+     
+    } .navTop p {
+        border: 0px solid black;
+        width: 80px;
+        height: 80px;
+
+        margin: 0 10px;
+
+        color: white;
+        font-size: 70px;
+    }
+
+
+    .mobTag {
+        border: 0px solid black;
+        width: 80px;
+        height: 60px;
+
+        float: right;
+
+        margin: 25px 0 0 0;
+        
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+
+        
+    }  .mobTag .line {
+        width: 60px;
+        height: 8px;
+       
+        background-color: #4880ba;
+
+    }
+
+
+    nav ul li a {
+        background-color: #f8d766;
+        font-size: 20px;
+        border-radius: 5px;
+        color: #4880ba;
+
+
+        padding: 10px 20px;
+        border: 0px solid black;
+
+
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+
+
+
+
+.frontPage {
+    display: none;
+}
+
+
+
+    
+    .mobFrontPage {
+        width: 100%;
+        border: 0px solid black;
+        margin: 130px 0 0 0;
+        text-align: center;
+    } .mobFrontPage h1 {
+        font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+        font-size: 140px;
+        color: #4880ba;
+        line-height: 130px;
+    }
+
+
+
+
+    
+    .applyBox {
+        width: 200px;
+        height: 60px;
+    
+        bottom: 0;
+        left: 0;
+        right: 0;
+      
+        margin: 0 0 20px 30px;
+        position: fixed;
+    
+        background-color: #4880ba;
+    
+        border-radius: 5px;
+
+        display: none;
+       
+    
+      
+    }
+    
+    
+    
+    .buttonHolder {
+    
+        border: 0px solid black;
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    } .buttonHolder button {
+        width: 150px;
+        height: 35px;
+    
+        border: 0;
+        border-radius: 5px;
+    
+        font-size: 15px;
+       
+    
+        color: #2f2f2f;
+        background-color: white;
+    
+        font-family: como,sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+    .buttonHolder button:hover {
+        transform: scale(1.1);
+    
+        transition: 0.2s;
+    }.buttonHolder button:not(:hover) {
+        transform: scale(1);
+        transition: 0.2s;
+    }
+    
+    
+
+
+    
+    
+   
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    /* For ipads: */
+
+    @keyframes popIn {
+        0% {
+            scale: 0;
+        }
+        100% {
+            scale: 1;
+        }
+      }
+
+   
+    
+
+
+    body {
+        background-color: #fbf5ec;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+    
+        text-decoration: none;
+        list-style: none;
+    }
+
+  
+    
+    
+    
+    .container {
+        width: 90%;
+        margin: 0 auto 0 auto;
+       
+    }
+    
+    
+    
+    label img {
+        width: 80px;
+        margin: 15px 0 0 0;
+    }
+    
+    nav {
+        width: 100%;
+        height: 110px;
+        border: 0px solid black;
+
+    } nav li img {
+        width: 20px;
+    }
+    
+    nav ul {
+        
+        background-color: #4880ba;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+
+        padding: 0px 0;
+
+        display: none;
+
+        animation: popIn 0.3s;
+
+        
+    }
+
+    nav ul li {
+        line-height: 60px;
+    }
+
+
+    .navTop {
+        width: 100%;
+        height: 100px;
+
+        border: 0px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: right;
+        align-items: center;
+     
+    } .navTop p {
+        border: 0px solid black;
+        width: 80px;
+        height: 80px;
+
+        margin: 5px 35px 0 0;
+
+        color: white;
+        font-size: 70px;
+        user-select: none;
+    }
+
+
+    .mobTag {
+        border: 0px solid black;
+        width: 80px;
+        height: 60px;
+
+        float: right;
+
+        margin: 25px 0 0 0;
+        
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+       
+
+        
+    }  .mobTag .line {
+        width: 60px;
+        height: 8px;
+       
+        background-color: #4880ba;
+
+    }
+
+
+    nav ul li a {
+        background-color: #f8d766;
+        font-size: 20px;
+        border-radius: 5px;
+        color: #4880ba;
+
+
+        padding: 10px 20px;
+        border: 0px solid black;
+
+
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+
+
+
+
+.mobFrontPage {
+    display: none;
+}
+
+
+
+    
+    .frontPage {
+        width: 100%;
+        border: 0px solid black;
+        margin: 130px 0 0 0;
+        text-align: center;
+    } .frontPage h1 {
+        font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+        font-size: 120px;
+        color: #4880ba;
+        line-height: 130px;
+    }
+
+
+
+
+    
+    .applyBox {
+        width: 200px;
+        height: 60px;
+    
+        bottom: 0;
+      
+        margin: 0 0 30px 0;
+        position: fixed;
+    
+        background-color: #4880ba;
+    
+        border-radius: 5px;
+
+
+        display: none;
+    
+      
+    }
+    
+    
+    
+    .buttonHolder {
+    
+        border: 0px solid black;
+        height: 100%;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    } .buttonHolder button {
+        width: 140px;
+        height: 35px;
+    
+        border: 0;
+        border-radius: 5px;
+    
+        font-size: 15px;
+       
+    
+        color: #2f2f2f;
+        background-color: white;
+    
+        font-family: como,sans-serif;
+        font-weight: 600;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+   
+
+
+    
+    
+   
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px){
+
+
+    body {
+      background-color: #fbf5ec;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0 ;
+  
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  
+  .mobTag {
+      display: none;
+  } .navTop {
+      display: none;
+  }
+  
+  
+  .container {
+      width: 90%;
+      margin: 0 auto 0 auto;
+  }
+  
+  
+  
+  label img {
+      width: 80px;
+      margin: 15px 0 0 0;
+  }
+  
+  nav {
+      width: 100%;
+      height: 110px;
+      border: 0px solid black;
+  } nav li img {
+      width: 20px;
+   
+  
+  }
+  
+  nav ul {
+      float: right;
+  }
+  nav ul li {
+      display: inline-block;
+      line-height: 110px;
+  
+  }
+  
+  
+  
+  
+  nav ul li a {
+      margin: 0 0 0 10px;
+      background-color: #f8d766;
+      padding: 9px 15px;
+      font-size: 15px;
+      border-radius: 5px;
+      color: #4880ba;
+      font-family: como,sans-serif;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-style: normal;
+  
+  
+      
+  } nav ul li a:hover {
+      background-color: white;
+      transition: 0.2s;
+  }nav ul li a:not(:hover) {
+      background-color: #f8d766;
+      transition: 0.2s;
+  }
+  
+  .mobFrontPage{
+    display: none;
+  }
+  .frontPage {
+      width: 100%;
+      border: 0px solid black;
+      margin: 120px 0 0 0;
+      text-align: center;
+  } .frontPage h1 {
+      font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+      font-size: 140px;
+      color: #4880ba;
+  }
+  
+  .applyBox {
+      width: 350px;
+      height: 80px;
+  
+      bottom: 0;
+    
+      margin: 0 0 30px 0;
+      position: fixed;
+  
+      background-color: #4880ba;
+  
+      border-radius: 5px;
+  
+    
+  }
+  
+  .applyBox img {
+      height: 80%;
+      pointer-events: none;
+      user-select: none;
+  }
+  
+  
+  .buttonHolder {
+  
+      border: 0px solid black;
+      height: 100%;
+      width: 100%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  } .buttonHolder button {
+      width: 150px;
+      height: 40px;
+  
+      border: 0;
+      border-radius: 5px;
+  
+      font-size: 17px;
+     
+  
+      color: #2f2f2f;
+      background-color: white;
+  
+      font-family: como,sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-style: normal;
+  }
+  .buttonHolder button:hover {
+      transform: scale(1.1);
+  
+      transition: 0.2s;
+  }.buttonHolder button:not(:hover) {
+      transform: scale(1);
+      transition: 0.2s;
+  }
+  
+  
+}
+  
+
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+
+
+  body {
+    background-color: #fbf5ec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0 ;
+
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.mobTag {
+    display: none;
+} .navTop {
+    display: none;
+}
+
+
+.container {
+    width: 1350px;
+    margin: 0 auto 0 auto;
+}
+
+
+
+label img {
+    width: 80px;
+    margin: 15px 0 0 0;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    border: 0px solid black;
+} nav li img {
+    width: 20px;
+ 
+
+}
+
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 110px;
+
+}
+
+
+
+
+nav ul li a {
+    margin: 0 0 0 10px;
+    background-color: #f8d766;
+    padding: 9px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #4880ba;
+    font-family: como,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: normal;
+
+
+    
+} nav ul li a:hover {
+    background-color: white;
+    transition: 0.2s;
+}nav ul li a:not(:hover) {
+    background-color: #f8d766;
+    transition: 0.2s;
+}
+
+.mobFrontPage {
+    display: none;
+}
+.frontPage {
+    width: 100%;
+    border: 0px solid black;
+    margin: 130px 0 0 0;
+    text-align: center;
+} .frontPage h1 {
+    font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+    font-size: 170px;
+    color: #4880ba;
+}
+
+.applyBox {
+    width: 350px;
+    height: 80px;
+
+    bottom: 0;
+  
+    margin: 0 0 30px 0;
+    position: fixed;
+
+    background-color: #4880ba;
+
+    border-radius: 5px;
+
+  
+}
+
+.applyBox img {
+    height: 80%;
+    pointer-events: none;
+    user-select: none;
+}
+
+
+.buttonHolder {
+
+    border: 0px solid black;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} .buttonHolder button {
+    width: 150px;
+    height: 40px;
+
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 17px;
+   
+
+    color: #2f2f2f;
+    background-color: white;
+
+    font-family: como,sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+.buttonHolder button:hover {
+    transform: scale(1.1);
+
+    transition: 0.2s;
+}.buttonHolder button:not(:hover) {
+    transform: scale(1);
+    transition: 0.2s;
+}
+
+
+}
+
+
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
+
+
+    body {
+      background-color: #fbf5ec;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0 ;
+  
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  
+  .mobTag {
+      display: none;
+  } .navTop {
+      display: none;
+  }
+  
+  
+  .container {
+      width: 90%;
+      margin: 0 auto 0 auto;
+  }
+  
+  
+  
+  label img {
+      width: 80px;
+      margin: 25px 0 0 0;
+  }
+  
+  nav {
+      width: 100%;
+      height: 130px;
+      border: 0px solid black;
+  } nav li img {
+      width: 20px;
+   
+  
+  }
+  
+  nav ul {
+      float: right;
+  }
+  nav ul li {
+      display: inline-block;
+      line-height: 130px;
+  
+  }
+  
+  
+  
+  
+  nav ul li a {
+      margin: 0 0 0 10px;
+      background-color: #f8d766;
+      padding: 12px 18px;
+      font-size: 16px;
+      border-radius: 5px;
+      color: #4880ba;
+      font-family: como,sans-serif;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-style: normal;
+  
+  
+      
+  } nav ul li a:hover {
+      background-color: white;
+      transition: 0.2s;
+  }nav ul li a:not(:hover) {
+      background-color: #f8d766;
+      transition: 0.2s;
+  }
+  
+  .mobFrontPage {
+      display: none;
+  }
+  .frontPage {
+      width: 100%;
+      border: 0px solid black;
+      margin: 130px 0 0 0;
+      text-align: center;
+  } .frontPage h1 {
+      font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+      font-size: 170px;
+      color: #4880ba;
+  }
+  
+  .applyBox {
+      width: 350px;
+      height: 80px;
+  
+      bottom: 0;
+    
+      margin: 0 0 30px 0;
+      position: fixed;
+  
+      background-color: #4880ba;
+  
+      border-radius: 5px;
+  
+    
+  }
+  
+  .applyBox img {
+      height: 80%;
+      pointer-events: none;
+      user-select: none;
+  }
+  
+  
+  .buttonHolder {
+  
+      border: 0px solid black;
+      height: 100%;
+      width: 100%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  } .buttonHolder button {
+      width: 150px;
+      height: 40px;
+  
+      border: 0;
+      border-radius: 5px;
+  
+      font-size: 17px;
+     
+  
+      color: #2f2f2f;
+      background-color: white;
+  
+      font-family: como,sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-style: normal;
+  }
+  .buttonHolder button:hover {
+      transform: scale(1.1);
+  
+      transition: 0.2s;
+  }.buttonHolder button:not(:hover) {
+      transform: scale(1);
+      transition: 0.2s;
+  }
+  
+  
+}
+
+@media only screen and (min-width: 1700px) {
+
+
+    body {
+      background-color: #fbf5ec;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+      margin: 0;
+      padding: 0 ;
+  
+      text-decoration: none;
+      list-style: none;
+  }
+  
+  
+  .mobTag {
+      display: none;
+  } .navTop {
+      display: none;
+  }
+  
+  
+  .container {
+      width: 90%;
+      margin: 0 auto 0 auto;
+  }
+  
+  
+  
+  label img {
+      width: 80px;
+      margin: 30px 0 0 0;
+  }
+  
+  nav {
+      width: 100%;
+      height: 150px;
+      border: 0px solid black;
+  } nav li img {
+      width: 20px;
+   
+  
+  }
+  
+  nav ul {
+      float: right;
+  }
+  nav ul li {
+      display: inline-block;
+      line-height: 150px;
+  
+  }
+  
+  
+  
+  
+  nav ul li a {
+      margin: 0 0 0 10px;
+      background-color: #f8d766;
+      padding: 14px 20px;
+      font-size: 18px;
+      border-radius: 5px;
+      color: #4880ba;
+      font-family: como,sans-serif;
+      font-weight: 700;
+      letter-spacing: 1px;
+      font-style: normal;
+  
+  
+      
+  } nav ul li a:hover {
+      background-color: white;
+      transition: 0.2s;
+  }nav ul li a:not(:hover) {
+      background-color: #f8d766;
+      transition: 0.2s;
+  }
+  
+  .mobFrontPage {
+      display: none;
+  }
+  .frontPage {
+      width: 100%;
+      border: 0px solid black;
+      margin: 145px 0 0 0;
+      text-align: center;
+  } .frontPage h1 {
+      font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+      font-size: 190px;
+      color: #4880ba;
+  }
+  
+  .applyBox {
+      width: 350px;
+      height: 80px;
+  
+      bottom: 0;
+    
+      margin: 0 0 30px 0;
+      position: fixed;
+  
+      background-color: #4880ba;
+  
+      border-radius: 5px;
+  
+    
+  }
+  
+  .applyBox img {
+      height: 80%;
+      pointer-events: none;
+      user-select: none;
+  }
+  
+  
+  .buttonHolder {
+  
+      border: 0px solid black;
+      height: 100%;
+      width: 100%;
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+  } .buttonHolder button {
+      width: 150px;
+      height: 40px;
+  
+      border: 0;
+      border-radius: 5px;
+  
+      font-size: 17px;
+     
+  
+      color: #2f2f2f;
+      background-color: white;
+  
+      font-family: como,sans-serif;
+      font-weight: 600;
+      letter-spacing: 1px;
+      font-style: normal;
+  }
+  .buttonHolder button:hover {
+      transform: scale(1.1);
+  
+      transition: 0.2s;
+  }.buttonHolder button:not(:hover) {
+      transform: scale(1);
+      transition: 0.2s;
+  }
+  
+  
+}
+
+
+
+
+
+

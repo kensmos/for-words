@@ -1,0 +1,828 @@
+@media only screen and (max-width: 600px) {
+
+
+
+
+body {
+    background-color: #5d8fc4;
+
+}
+
+
+
+
+nav ul li a {
+
+    background-color: white;
+    color: #4880ba;
+    
+} nav ul li a:hover {
+    background-color: #f8d766;
+    transition: 0.2s;
+}nav ul li a:not(:hover) {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.mobTag .line {
+    width: 60px;
+    height: 8px;
+   
+    background-color: white;
+
+}
+
+
+.headerHolder {
+    border: 0px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 60px 0 10px 0;
+
+
+}.headerHolder h1 {
+    font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+
+
+.form {
+    margin: 0 auto 0 auto;
+    width: 95%;
+    border: 0px solid black;
+    text-align: center;
+
+    
+}
+
+form .top {
+    
+    width: 100%;
+    
+  
+    justify-content: space-between;
+
+}
+
+
+form .top input {
+    width: 100%;
+    height: 70px;
+    margin: 20px 0 0 0;
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+    border-radius: 10px;
+    border: 0;
+
+    font-family: como,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: normal;
+
+}
+
+form textarea {
+    width: 100%;
+    padding: 20px 20px;
+    box-sizing: border-box;
+
+    border-radius: 10px;
+    border: 0;
+
+    font-family: como,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: normal;
+}
+
+form button {
+    width: 200px;
+    height: 50px;
+
+    margin: 20px 0 0 0;
+
+    font-family: como,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-style: normal;
+    font-size: 16px;
+
+    border-radius: 10px;
+    border: 0;
+
+
+    background-color: #f8d766;
+    color: #414141;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    body {
+        background-color: #5d8fc4;
+    
+    }
+    
+    
+    
+    
+    nav ul li a {
+    
+        background-color: white;
+        color: #4880ba;
+        
+    } nav ul li a:hover {
+        background-color: #f8d766;
+        transition: 0.2s;
+    }nav ul li a:not(:hover) {
+        background-color: white;
+        transition: 0.2s;
+    }
+    
+    .mobTag .line {
+        width: 60px;
+        height: 8px;
+       
+        background-color: white;
+    
+    }
+    
+    
+    .headerHolder {
+        border: 0px solid black;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 60px 0 10px 0;
+    
+    
+    }.headerHolder h1 {
+        font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+    
+    
+    .form {
+        margin: 0 auto 0 auto;
+        width: 95%;
+        border: 0px solid black;
+        text-align: center;
+    
+        
+    }
+    
+    form .top {
+        
+        width: 100%;
+        
+      
+        justify-content: space-between;
+    
+    }
+    
+    
+    form .top input {
+        width: 100%;
+        height: 70px;
+        margin: 20px 0 0 0;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    
+    }
+    
+    form textarea {
+        width: 100%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+    
+    form button {
+        width: 200px;
+        height: 50px;
+    
+        margin: 20px 0 0 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+        font-size: 16px;
+    
+        border-radius: 10px;
+        border: 0;
+    
+    
+        background-color: #f8d766;
+        color: #414141;
+    }
+    
+    
+    
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+
+    body {
+        background-color: #5d8fc4;
+    
+    }
+    
+    
+    
+    
+    nav ul li a {
+    
+        background-color: white;
+        color: #4880ba;
+        
+    } nav ul li a:hover {
+        background-color: #f8d766;
+        transition: 0.2s;
+    }nav ul li a:not(:hover) {
+        background-color: white;
+        transition: 0.2s;
+    }
+    
+    
+    
+    
+    .headerHolder {
+        border: 0px solid black;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 60px 0 10px 0;
+    
+    
+    }.headerHolder h1 {
+        font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+    
+    
+    .form {
+        margin: 0 auto 0 auto;
+        width: 600px;
+        border: 0px solid black;
+        text-align: center;
+    
+        
+    }
+    
+    form .top {
+        
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    
+    form .top input {
+        width: 49%;
+        height: 70px;
+        margin: 20px 0 0 0;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    
+    }
+    
+    form textarea {
+        width: 100%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+    
+    form button {
+        width: 200px;
+        height: 50px;
+    
+        margin: 20px 0 0 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+        font-size: 16px;
+    
+        border-radius: 10px;
+        border: 0;
+    
+    
+        background-color: #f8d766;
+        color: #414141;
+    }form button:hover{
+        transform: scale(1.05);
+        transition: 0.2s;
+
+        background-color: #f5d87a;
+    }form button:not(:hover){
+        transform: scale(1);
+        transition: 0.2s;
+
+        background-color: #f5d87a;
+    }
+    
+    
+    
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+
+
+
+
+    body {
+        background-color: #5d8fc4;
+    
+    }
+    
+    
+    nav ul li a {
+
+        background-color: white;
+        color: #4880ba;
+        
+    } nav ul li a:hover {
+        background-color: #f8d766;
+        transition: 0.2s;
+    }nav ul li a:not(:hover) {
+        background-color: white;
+        transition: 0.2s;
+    }
+    
+    
+    
+    
+    
+    .headerHolder {
+        border: 0px solid black;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 80px 0 60px 0;
+    
+    
+    }.headerHolder h1 {
+        font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+    
+    
+    .form {
+        margin: 0 auto 0 auto;
+        width: 600px;
+    
+        text-align: center;
+    }
+    
+    form .top {
+        
+        width: 600px;
+        
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    
+    form .top input {
+        width: 280px;
+        height: 70px;
+    
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    
+    }
+    
+    form textarea {
+        width: 600px;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+    
+    form button {
+        width: 200px;
+        height: 50px;
+    
+        margin: 20px 0 0 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+        font-size: 16px;
+    
+        border-radius: 10px;
+        border: 0;
+    
+    
+        background-color: #f8d766;
+        color: #414141;
+    }form button:hover{
+        transform: scale(1.05);
+        transition: 0.2s;
+
+        background-color: #f5d87a;
+    }form button:not(:hover){
+        transform: scale(1);
+        transition: 0.2s;
+
+        background-color: #f5d87a;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
+
+
+    body {
+        background-color: #5d8fc4;
+    
+    }
+    nav ul li a {
+
+        background-color: white;
+        color: #4880ba;
+        
+    } nav ul li a:hover {
+        background-color: #f8d766;
+        transition: 0.2s;
+    }nav ul li a:not(:hover) {
+        background-color: white;
+        transition: 0.2s;
+    }
+    
+    
+    
+    
+    .headerHolder {
+        border: 0px solid black;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 80px 0 60px 0;
+    
+    
+    }.headerHolder h1 {
+        font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+    
+    
+    .form {
+        margin: 0 auto 0 auto;
+        width: 600px;
+    
+        text-align: center;
+    }
+    
+    form .top {
+        
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    
+    form .top input {
+        width: 280px;
+        height: 70px;
+    
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    
+    }
+    
+    form textarea {
+        width: 600px;
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+    
+    form button {
+        width: 200px;
+        height: 50px;
+    
+        margin: 20px 0 0 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+        font-size: 16px;
+    
+        border-radius: 10px;
+        border: 0;
+    
+    
+        background-color: #f8d766;
+        color: #414141;
+    }form button:hover{
+        transform: scale(1.05);
+        transition: 0.2s;
+
+        background-color: #f5d87a;
+    }form button:not(:hover){
+        transform: scale(1);
+        transition: 0.2s;
+
+        background-color: #f5d87a;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 1700px) {
+    
+
+    body {
+        background-color: #5d8fc4;
+    
+    }
+    
+    nav ul li a {
+
+        background-color: white;
+        color: #4880ba;
+        
+    } nav ul li a:hover {
+        background-color: #f8d766;
+        transition: 0.2s;
+    }nav ul li a:not(:hover) {
+        background-color: white;
+        transition: 0.2s;
+    }
+    
+    
+    .headerHolder {
+        border: 0px solid black;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        margin: 80px 0 60px 0;
+    
+    
+    }.headerHolder h1 {
+        font-family: 'arial_blackregular', Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        color: white;
+    }
+    
+      
+    .form {
+        margin: 0 auto 0 auto;
+        width: 600px;
+    
+        text-align: center;
+    }
+    
+    form .top {
+        
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    
+    form .top input {
+        width: 49%;
+        height: 70px;
+    
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    
+    }
+    
+    form textarea {
+        width: 100%;
+        
+        padding: 20px 20px;
+        box-sizing: border-box;
+    
+        border-radius: 10px;
+        border: 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+    }
+    
+    form button {
+        width: 200px;
+        height: 50px;
+    
+        margin: 20px 0 0 0;
+    
+        font-family: como,sans-serif;
+        font-weight: 700;
+        letter-spacing: 1px;
+        font-style: normal;
+        font-size: 16px;
+    
+        border-radius: 10px;
+        border: 0;
+    
+    
+        background-color: #f8d766;
+        color: #414141;
+    } form button:hover{
+        transform: scale(1.05);
+        transition: 0.2s;
+
+        background-color: #f5d87a;
+    }form button:not(:hover){
+        transform: scale(1);
+        transition: 0.2s;
+
+        background-color: #f5d87a;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
